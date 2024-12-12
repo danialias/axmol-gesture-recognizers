@@ -1,11 +1,13 @@
-Cocos2d-x Gesture Recognizers
+Axmol Engine Gesture Recognizers
 =============================
 
-<p align="center"><img src="http://www.cocos2d-x.org/attachments/802/cocos2dx_landscape.png" width=350></p>
+Adaptation for Axmol Engine (WIP)
+
+Original version by [Alfonso Grillo](https://github.com/alfogrillo)
 
 This project is an extension of Cocos2d-x that provide touch Gesture Recognizers.
 
-The classes recognize the following gestures :octocat:
+The classes recognize the following gestures:
 
 - **Swipe** (one finger, 4 directions)
 - **Long press** (one or multiple fingers)
