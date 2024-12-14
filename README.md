@@ -1,7 +1,7 @@
 Axmol Engine Gesture Recognizers
 =============================
 
-Original version by [Alfonso Grillo](https://github.com/alfogrillo)
+Original version by [Alfonso Grillo](https://github.com/alfogrillo)     
 Adaptation for Axmol Engine by Daniel Alias on 24/12/14 (yy/mm/dd)
 
 This project is an extension for Axmol Engine that provide touch Gesture Recognizers.
