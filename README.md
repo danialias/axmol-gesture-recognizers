@@ -1,11 +1,10 @@
 Axmol Engine Gesture Recognizers
 =============================
 
-Adaptation for Axmol Engine (WIP)
-
 Original version by [Alfonso Grillo](https://github.com/alfogrillo)
+Adaptation for Axmol Engine by Daniel Alias on 24/12/14 (yy/mm/dd)
 
-This project is an extension of Cocos2d-x that provide touch Gesture Recognizers.
+This project is an extension for Axmol Engine that provide touch Gesture Recognizers.
 
 The classes recognize the following gestures:
 
@@ -15,80 +14,26 @@ The classes recognize the following gestures:
 - **Pan** (one or multiple fingers)
 - **Tap** (one or multiple taps with one or multiple fingers)
 
-My work was inspired by Apple documentation about the Gesture Recognizers:
+This work was inspired by Apple documentation about the Gesture Recognizers:
 
 [Apple Gesture Recognizers](https://developer.apple.com/library/ios/documentation/EventHandling/Conceptual/EventHandlingiPhoneOS/GestureRecognizer_basics/GestureRecognizer_basics.html) for iOS
 
-The code was tested on
-- Android 5.1.1 physical device
-- iOS 10.1 physical devices (iPhone and iPad)
-
-Latest version tested with: **Cocos2d-x 3.13** :+1:
-
-Here Gestures in action on [YouTube](https://www.youtube.com/watch?v=Gnhj_x4aOwY)
-
-How to build the sample project
-----------
-
-**iOS**
-
-- Create a new cocos2d-x project:
-```
-	cocos new -l cpp TEST
-```
-- Copy the `cocos2d` folder from `TEST` to the repository root folder
-- Open the Xcode project inside the `proj.ios_mac` folder
-- Build
-
-**Android**
-
-- Create a new cocos2d-x project:
-```
-	cocos new -l cpp TEST
-```
-- Copy the `cocos2d` folder from `TEST` to the repository root folder
-- With terminal go inside the repository root folder
-- Run:
-```
-	cocos run -s . -p android --android-studio
-```
+Gestures in action on [YouTube](https://www.youtube.com/watch?v=Gnhj_x4aOwY)
 
 
 How to integrate gestures code inside your (or new) project
 ----------
 
-The repository contains two folders inside `Classes` folder:
+The repository contains two folders inside `Source` folder:
 - Gestures
 - Test
 
-The actual gesture recognition require **only** the `Gestures` folder.
-The `Test` folder contains various example scenes.
-To try the code you can do the following steps:
+The actual gesture recognition requires **only** the `Gestures` folder.   
+    
 
-**iOS**
-
-- Create a new cocos2d-x project:
-```
-	cocos new -l cpp <project name>
-```
-- Delete `Classes` e `Resources` folders from the sample project and add those of this repository
-- Update your Xcode project with Classes and Resources folders
-- Enable multi touch in file `ios/AppController.mm`. The line you must modify should look like this:
-```
-	[eaglView setMultipleTouchEnabled:YES]
-```
-
-   For further informations see how to enable multi-touch [here](http://www.cocos2d-x.org/wiki/How_to_Enable_Multi-Touch)
-
-
-**Android**
-
-- Create a new cocos2d-x project:
-```
-	cocos new -l cpp <project name>
-```
-- Delete `Classes` and `Resources` folders from the sample project and add those of this repository
-- Add the source file of this repo in `proj.andorid/jni/Android.mk`
+The `Test` folder contains various example scenes. To try the code you can do the following steps:
+- Delete `Source` and `Content` folders from the sample project and add those of this repository
+- Add the source files on CMakeList.txt
 
 **Contact** drakon.cocos@gmail.com
 
