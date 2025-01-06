@@ -35,6 +35,4 @@ The `Test` folder contains various example scenes. To try the code you can do th
 - Delete `Source` and `Content` folders from the sample project and add those of this repository
 - Add the source files on CMakeList.txt
 
-**Contact** drakon.cocos@gmail.com
-
 **License** [MIT](https://opensource.org/licenses/MIT)
