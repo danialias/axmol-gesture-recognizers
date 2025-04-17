@@ -26,7 +26,7 @@ THE SOFTWARE.
 #include "PinchGestureRecognizer.h"
 #include "GestureRecognizerUtils.h"
 
-NS_AX_BEGIN
+USING_NS_AX;
 
 PinchGestureRecognizer* PinchGestureRecognizer::create()
 {
@@ -149,5 +149,3 @@ float PinchGestureRecognizer::computeAngle(const TouchesMap &newTouches) const
     
     return computeSignedAngle(dir, currDir);
 }
-
-NS_AX_END
