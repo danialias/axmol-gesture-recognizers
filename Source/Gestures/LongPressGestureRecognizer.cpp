@@ -25,7 +25,7 @@ THE SOFTWARE.
 
 #include "LongPressGestureRecognizer.h"
 
-NS_AX_BEGIN
+USING_NS_AX;
 
 LongPressGestureRecognizer* LongPressGestureRecognizer::create(float timeout, uint fingers)
 {
@@ -127,5 +127,3 @@ void LongPressGestureRecognizer::timeout(float dt)
             onLongPress(this);
     }
 }
-
-NS_AX_END
