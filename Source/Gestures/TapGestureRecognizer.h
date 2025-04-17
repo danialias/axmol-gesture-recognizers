@@ -30,7 +30,7 @@ THE SOFTWARE.
 #define TAP_MOVE_DELTA 100
 #define TAP_MAX_BEETWEEN_TOUCHES 0.5f // in seconds
 
-NS_AX_BEGIN
+USING_NS_AX;
 
 struct TouchInfo
 {
@@ -67,5 +67,3 @@ private:
     void onTouchCancelled(Touch* touch, Event* ev) override;
     void onTouchEnded(Touch* touch, Event* ev) override;
 };
-
-NS_AX_END
