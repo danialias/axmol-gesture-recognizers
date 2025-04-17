@@ -25,7 +25,7 @@ THE SOFTWARE.
 
 #include "PanGestureRecognizer.h"
 
-NS_AX_BEGIN
+USING_NS_AX;
 
 PanGestureRecognizer* PanGestureRecognizer::create(uint fingerCount)
 {
@@ -112,6 +112,3 @@ void PanGestureRecognizer::onTouchEnded(Touch* touch, Event* ev)
             onPan(this); // 'GestureStatus::RECOGNIZED'
     }
 }
-
-NS_AX_END
-
