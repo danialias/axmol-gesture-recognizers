@@ -52,7 +52,7 @@ enum class GestureStatus
 #define GESTURE_DEBUG_ALL    (0XFFFFFFFF)
 #define GESTURE_TIMEOUT_KEY "GestureRecognizerTimeoutKey"
 
-NS_AX_BEGIN
+USING_NS_AX;
 
 class GestureRecognizer : public Node 
 {
@@ -132,5 +132,3 @@ private:
     virtual void _onTouchCancelled(Touch* touch, Event* ev);
     virtual void _onTouchEnded(Touch* touch, Event* ev);
 };
-
-NS_AX_END
