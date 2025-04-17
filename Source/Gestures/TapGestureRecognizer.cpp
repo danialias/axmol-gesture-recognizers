@@ -25,7 +25,7 @@ THE SOFTWARE.
 
 #include "TapGestureRecognizer.h"
 
-NS_AX_BEGIN
+USING_NS_AX;
 
 TapGestureRecognizer* TapGestureRecognizer::create(uint fingerCount, uint tapNumber, float maxTime)
 {
@@ -154,5 +154,3 @@ void TapGestureRecognizer::reset(float dt)
     touchesCount.clear();
     tapCount = 0;
 }
-
-NS_AX_END
