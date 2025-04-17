@@ -27,7 +27,7 @@ THE SOFTWARE.
 
 #include "GestureRecognizer.h"
 
-NS_AX_BEGIN
+USING_NS_AX;
 
 #define LONGPRESS_MOVE_DELTA 50 // max move offset allowed
 
@@ -49,5 +49,3 @@ private:
     void onTouchCancelled(Touch* touch, Event* ev) override;
     void onTouchEnded(Touch* touch, Event* ev) override;
 };
-
-NS_AX_END
