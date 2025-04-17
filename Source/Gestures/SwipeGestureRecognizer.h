@@ -45,7 +45,7 @@ THE SOFTWARE.
 
 #endif
 
-NS_AX_BEGIN
+USING_NS_AX;
 
 class SwipeGestureRecognizer : public GestureRecognizer
 {
@@ -77,5 +77,3 @@ private:
     void onTouchCancelled(Touch* touch, Event* ev) override;
     void onTouchEnded(Touch* touch, Event* ev) override;
 };
-
-NS_AX_END
