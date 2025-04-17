@@ -26,7 +26,7 @@ THE SOFTWARE.
 #include "SwipeGestureRecognizer.h"
 #include "GestureRecognizerUtils.h"
 
-NS_AX_BEGIN
+USING_NS_AX;
 
 SwipeGestureRecognizer* SwipeGestureRecognizer::create()
 {
@@ -138,5 +138,3 @@ void SwipeGestureRecognizer::swipeCheck(Touch* touch)
         touches.at(id) = currPoint;
     }
 }
-
-NS_AX_END
