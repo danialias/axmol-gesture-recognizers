@@ -26,7 +26,7 @@ THE SOFTWARE.
 #include "GestureRecognizer.h"
 #include "GestureRecognizerUtils.h"
 
-NS_AX_BEGIN
+USING_NS_AX;
 
 std::vector<Color4F> GestureRecognizer::touchColors = //10 colors
 {
@@ -230,6 +230,3 @@ void GestureRecognizer::update(float delta)
         }
     }
 }
-
-
-NS_AX_END
